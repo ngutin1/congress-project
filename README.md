@@ -22,6 +22,7 @@ congress-project/
 ├── text-download.py          # Main script for downloading bill texts
 ├── notebooks/                # Jupyter notebooks for testing and analysis
 │   └── test_functions.ipynb  # Testing individual functions
+    └── pulling_data.ipynb    # pulls congressional bill metadata formated for this script (from 2008-2024)
 ├── .env                      # Environment variables (not in repo)
 ├── requirements.txt          # Python dependencies
 └── README.md                # This file
@@ -245,6 +246,15 @@ Created: December 2024
 - The Python asyncio community for excellent async patterns
 - AWS for reliable cloud storage solutions
 
+## Future Enhancements
+
+Planned improvements:
+- [ ] Add support for additional document types (committee reports, amendments)
+- [ ] Implement resumable downloads
+- [ ] Add data validation and checksums
+- [ ] Create visualization tools for downloaded data
+- [ ] Add Docker containerization
+- [ ] Implement automated scheduling with AWS Lambda
 
 ## Contact
 
